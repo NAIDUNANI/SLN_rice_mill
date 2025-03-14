@@ -1,0 +1,1042 @@
+@media (max-width:1200px) {
+  body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+  }
+  
+    .maill-m{
+        font-size: 15px;
+        margin-right: 15px;
+    }
+    .wel-mess{
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .nav-links ul li a{
+        font-size: 18px;
+      }
+    .maill-p{
+        font-size: 15px;
+    }
+    .call-text, .call-number{
+        font-size: 13px;
+    }
+    .logo img{
+        width: 90px;
+    }
+
+    /* rice mill section */
+    .rice-mill-section {
+        width: auto;
+        height: auto;
+    }
+    .rice-mill-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .rice-mill-image img{
+        width: 400px;
+    }
+
+    /* rice-type-section */
+    .rice-section {
+        height: auto;
+    }
+    .rice-details {
+        margin-right: 180px;
+    }
+
+    /* reasons section */
+    .reasons-grid {
+        gap: 0px;
+        width: 700px;
+      }
+
+    /* get section */
+    .touch-div{
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      .line-sent{
+        font-size: 20px;
+      }
+      .touch-btn{
+        font-size: 17px;
+      }
+
+      /* footer */
+      .footer{
+        padding-top: 2rem;
+        height: auto;
+        gap: 1rem;
+        font-size: 15px;
+      }
+      .footer h3{
+        font-size: 25px;
+      }
+      .foot-logo{
+        width: 150px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+      }
+      .mill-des p{
+        width: 300px;
+      }
+      .loc1, .loc2{
+        width: 290px;
+      }
+      .foot-cont{
+        width: 290px;
+      }
+      /* products section */
+      .product-head h1, .about-head h1{
+        font-size: 60px;
+      }
+      .about-head h1{
+        font-size: 60px;
+      }
+      .product-head img{
+        width: 200px;
+      }
+      .about-head img{
+        width: 200px;
+      }
+      .contact-head h1{
+        font-size: 60px;
+      }
+      .contact-head img{
+        width: 200px;
+      }
+      .item1{
+        width: 1000px;
+        height: 350px;
+        gap: 2rem;
+      }
+      .item1-brand{
+        font-size: 25px;
+      }
+      .item1-titel{
+        font-size: 20px;
+      }
+      .item1-desp{
+        width: 500px;
+        font-size: 18px;
+      }
+      .item2{
+        width: 1000px;
+        height: 350px;
+        gap: 2rem;
+      }
+      .item2-brand{
+        font-size: 25px;
+        margin-top: 10px;
+      }
+      .item2-titel{
+        font-size: 20px;
+      }
+      .item2-desp{
+        margin-top: 35px;
+        width: 500px;
+        font-size: 18px;
+      }
+
+      /* team-section */
+      .team-head h1{
+        font-size: 60px;
+      }
+      .team-head img{
+        width: 200px;
+      }
+      .parter-titel{
+        font-size: 35px;
+      }
+      .staff-sec{
+        font-size: 35px;
+      }
+      .titel-under{
+        width: 210px;
+      }
+      .staff-mem{
+        gap: 0rem;
+      }
+      .staff1 img{
+        width: 210px;
+      }
+      .madhu-st{
+        height: 230px;
+      }
+
+      /* about-section */
+      .about-bd{
+        gap: 3rem;
+      }
+      .about-bd img{
+        width: 250px;
+      }
+      .about-bd h2{
+        font-size: 25px;
+      }
+      .about-bd p{
+        width: 700px;
+        font-size: 16px;
+      }
+      .sub-ab-desp p{
+        margin-top: 20px;
+        width: 1000px;
+        font-size: 16px;
+        padding-bottom: 3rem;
+      }
+
+      /* contact section */
+      .contact-bd{
+        gap: 0rem;
+      }
+      .mess-loc{
+        padding-top: 1rem;
+      }
+      .mess h3{
+        margin-left: 25px;
+      }
+      .map-loc iframe{
+        width: 700px;
+        height: 500px;
+      }
+}
+
+@media (max-width:696px){
+    .wheat-icon {
+        margin-bottom: 20px;
+      }
+    .reasons-grid {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: auto;
+    }
+    .reasons-grid::before,
+    .reasons-grid::after {
+    display: none;
+    }
+    .reason-box:not(:nth-child(3n))::after {
+        display: none;
+    }
+    .icon {
+        margin-bottom: 0px;
+      }
+      /* slider section */
+      .slider-image {
+        height: 50vh;
+      }
+
+      /* rice mill section */
+      .rice-mill-section {
+        padding: 30px;
+      }
+
+    /* products section */
+    .product-head{
+        height: 45vh;
+    }
+    .product-head h1{
+        font-size: 45px;
+    }
+    .about-head{
+        height: 45vh;
+    }
+    .about-head h1{
+        font-size: 45px;
+    }
+    .contact-head{
+        height: 45vh;
+    }
+    .contact-head h1{
+        font-size: 45px;
+    }
+      .item1{
+        margin-top: -50px;
+        width: 1000px;
+        flex-direction: column;
+        height: 550px;
+      }
+      .item1-box, .item2-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 600px;
+      }
+      .item1 img{
+        width: 270px;
+      }
+      .item1-brand{
+        font-size: 22px;
+      }
+      .item1-titel{
+        font-size: 18px;
+      }
+      .item1-desp, .item2-desp{
+        width: 500px !important;
+        font-size: 15px;
+      }
+
+      .item2{
+        margin-top: -50px;
+        width: 1000px;
+        flex-direction: column-reverse;
+        height: 550px;
+      }
+      .item2 img{
+        width: 270px;
+      }
+      .item2-brand{
+        font-size: 22px;
+        margin-top: -10px;
+        margin-bottom: -45px;
+      }
+      .item2-titel{
+        font-size: 18px;
+        margin-bottom: -25px;
+      }
+      /* team-section */
+      .team-head{
+        height: 45vh;
+      }
+      .team-head h1{
+        font-size: 45px;
+      }
+      .parter-titel{
+        font-size: 32px;
+      }
+      .titel-under{
+        margin-top: 5px;
+        width: 190px;
+      }
+      .parter{
+        gap: 0rem;
+      }
+      .parter1 img{
+        width: 220px;
+      }
+      .staff-mem{
+        gap: 0rem;
+      }
+      .staff-sec{
+        font-size: 32px;
+      }
+      .titel-under{
+        width: 190px;
+      }
+      .staff1{
+        height: 250px;
+      }
+      .staff1 img{
+        width: 180px;
+      }
+      .madhu-st{
+        height: 190px;
+      }
+
+      
+    
+}
+
+@media (max-width:767px) {
+    .maill-m{
+        font-size: 15px;
+        margin-right: 15px;
+    }
+    .maill-p{
+        display: none;
+    }
+    .wel-mess{
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .header2{
+        float: right;
+    }
+    .call-section{
+        display: none;
+    }
+    .div-line{
+        display: none;
+    }
+    .logo img{
+        width: 70px;
+    }
+
+    /* rice mill section */
+
+    .rice-mill-image img{
+        width: 350px;
+    }
+    .rice-mill-content{
+        width: 600px;
+    }
+    .mill-title-dline{
+        margin-top: -30px;
+        font-size: 15px;
+    }
+    .rice-mill-subtitle {
+    font-size: 13px;
+    }
+    
+    .rice-mill-title {
+    font-size: 25px;
+    }
+    
+    .rice-mill-description {
+    width: 550px;
+    margin-top: 10px;
+    font-size: 15px;
+    }
+    .rice-mill-features {
+        width: 550px;
+        gap: 40px;
+    }
+    .rice-mill-features p {
+    width: 240px;
+    gap: 10px;
+    font-size: 14px;
+    }
+
+    /* rice-type-section */
+    .rice-details {
+        margin-right: 0px;
+        width: 500px;
+    }
+    /* get section */
+      .line-sent{
+        font-size: 17px;
+      }
+      .touch-btn{
+        width: 130px;
+        font-size: 17px;
+      }
+    /* footer */
+    .loc2,.loc1{
+        width: 200px;
+    }
+    .foot-cont{
+        margin-top: 15px;
+        width: 290px;
+      }
+    /* products section */
+      .item1{
+        width: 900px;
+      }
+      .item1 img{
+        width: 270px;
+      }
+      .item1-brand{
+        font-size: 22px;
+      }
+      .item1-titel{
+        font-size: 18px;
+      }
+      .item1-desp{
+        width: 400px;
+        font-size: 15px;
+      }
+      .item2{
+        width: 900px;
+      }
+      .item2 img{
+        width: 270px;
+      }
+      .item2-brand{
+        font-size: 22px;
+      }
+      .item2-titel{
+        font-size: 18px;
+      }
+      .item2-desp{
+        width: 400px;
+        font-size: 15px;
+      }
+      /* about-section */
+      .about-bd{
+        gap: 2rem;
+      }
+      .about-bd img{
+        width: 220px;
+      }
+      .about-bd p{
+        width: 400px;
+        font-size: 14px;
+      }
+      .sub-ab-desp p{
+        width: 650px;
+        font-size: 14px;
+      }
+      /* contact section */
+      .contact-bd{
+        gap: 0rem;
+      }
+      .mess-loc{
+        padding-top: 1rem;
+      }
+      .mess h3{
+        margin-left: 25px;
+      }
+      .map-loc iframe{
+        width: 600px;
+        height: 500px;
+      }
+      .mess-box input{
+        width: 500px;
+        height: 50px;
+        font-size: 15px;
+      }
+      .mess-box textarea{
+        width: 500px;
+        font-size: 15px;
+      }
+      .sub-cont{
+        height: 170px;
+      }
+      .sub-cont h4, .sub1-cont h4{
+        width: 250px;
+        font-size: 17px;
+      }
+      .sub-cont p, .sub1-cont p{
+        width: 250px;
+        font-size: 17px;
+      }
+}
+
+@media (max-width:450px) {
+    .maill-m{
+        font-size: 10px;
+        margin-right: 10px;
+    }
+    .maill-p{
+        display: none;
+    }
+    .wel-mess{
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    .header{
+        height: 10vh;
+    }
+    .nav-links ul{
+        gap: 8px;
+    }
+    .nav-links ul li a{
+        font-size: 12px;
+      }
+    .call-section{
+        display: none;
+    }
+    .div-line{
+        display: none;
+    }
+    .logo img{
+        width: 60px;
+    }
+
+    /* rice mill section */
+    .rice-mill-image img{
+        width: 330px;
+    }
+    .rice-mill-content{
+        width: 380px;
+    }
+    .mill-title-dline{
+        margin-top: -30px;
+        font-size: 15px;
+    }
+    .rice-mill-subtitle {
+    font-size: 11px;
+    }
+    
+    .rice-mill-title {
+    font-size: 25px;
+    }
+    
+    .rice-mill-description {
+    width: 380px;
+    margin-top: 10px;
+    font-size: 15px;
+    }
+
+    .rice-mill-features {
+        width: 400px;
+        gap: 30px;
+    }
+      
+    .rice-mill-features p {
+    width: 170px;
+    gap: 10px;
+    font-size: 14px;
+    }
+
+    /* rice-type-section */
+    .rice-container{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .rice-options{
+      margin-left: -35px;
+        width: 280px;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-bottom: 70px;
+    }
+    .rice-option {
+        width: auto;
+        flex-direction: row;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    .rice-name-box {
+        position: absolute;
+        margin-left: -15px;
+        left: 0px;
+        top: 60px;
+        font-size: 14px;
+    }
+    .line {
+        margin-top: -30px;
+        margin-left: 25px;
+        width: 40px;  /* Make the line full width */
+        height: 2px;   /* Change height to create a horizontal line */
+        left: 1;       /* Align with left edge */
+        top: 1;     /* Reset top positioning */
+        bottom: 0;     /* Place the line at the bottom */
+        transform: none; /* Remove transform effect */
+    }
+    .rice-details {
+      margin-left: -10px;
+        width: 340px;
+        flex-direction: column;
+    }
+    .rice-detail-image {
+        width: 130px;
+        height: 130px;
+        margin-right: 0px; 
+        margin-bottom: 20px;
+    }
+
+    /* certifi-section */
+    .certificats img{
+        width: 150px;
+    }
+    .certifi-head{
+        font-size: 27px;
+    }
+    /* get section */
+    .touch-div{
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+      .line-sent{
+        font-size: 15px;
+      }
+      .touch-btn{
+        width: 130px;
+        font-size: 15px;
+      }
+
+      /* footer section */
+    .links{
+        width: 290px;
+    }
+    .links ul{
+        margin-left: -220px;
+    }
+    .loc2,.loc1{
+        width: 290px;
+    }
+    .foot-cont{
+        margin-top: -20px;
+        width: 290px;
+    }
+    .foot-down{
+        height: auto;
+    }
+    .bottom{
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    /* products section */
+    .product-head{
+        height: 40vh;
+    }
+    .product-head img{
+        margin-top: 10px;
+        width: 120px;
+    }
+    .product-head h1{
+        font-size:35px;
+      }
+      .about-head{
+        height: 40vh;
+    }
+    .about-head img{
+        margin-top: 10px;
+        width: 120px;
+    }
+    .about-head h1{
+        font-size: 35px;
+      }
+      .contact-head{
+        height: 35vh;
+    }
+    .contact-head img{
+        margin-top: 10px;
+        width: 120px;
+    }
+    .contact-head h1{
+        font-size: 35px;
+      }
+      .item1{
+        margin-top: -50px;
+        width: 800px;
+        height: 620px;
+      }
+      .item1-box, .item2-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 400px;
+      }
+      .item1-brand{
+        font-size: 21px;
+      }
+      .item1-titel{
+        font-size: 17px;
+      }
+      .item1-desp, .item2-desp{
+        width: 400px !important;
+        font-size: 14px;
+      }
+      .item2{
+        margin-top: -70px;
+        width: 1000px;
+        flex-direction: column-reverse;
+        height: 550px;
+      }
+      .item2-brand{
+        font-size: 22px;
+        margin-top: -10px;
+        margin-bottom: -45px;
+      }
+      /* team-section */
+      .team-head{
+        height: 40vh;
+      }
+      .team-head h1{
+        font-size: 35px;
+      }
+      .team-head img{
+        margin-top: 10px;
+        width: 120px;
+      }
+      .parter-titel{
+        font-size: 26px;
+      }
+      .titel-under{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 170px;
+      }
+      .parter1{
+        margin-top: -80px;
+      }
+      .parter1 img{
+        width: 200px;
+      }
+      .staff-sec h1{
+        font-size: 26;
+      }
+      .titel-under1{
+        width: 170px;
+
+      }
+      /* about section */
+      .about-bd{
+        flex-direction: column;
+        gap: 2rem;
+      }
+      .about-bd img{
+        width: 230px;
+      }
+      .about-bd div{
+        width: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+      .about-bd h2{
+        font-size: 20px;
+      }
+      .about-bd p{
+        width: 380px;
+        font-size: 14px;
+      }
+      .sub-ab-desp p{
+        width: 380px;
+        font-size: 14px;
+      }
+      /* contact section */
+      .mess h3{
+        margin-left: 25px;
+      }
+      .map-loc iframe{
+        width: 400px;
+        height: 400px;
+      }
+      .mess-box input{
+        width: 400px;
+        height: 50px;
+        font-size: 15px;
+      }
+      .mess-box textarea{
+        width: 400px;
+        font-size: 15px;
+      }
+      .mess-box{
+        width: 400px;
+      }
+      .sub-cont,.sub1-cont{
+        margin-top: -35px;
+        height: 170px;
+      }
+      .sub-cont h4, .sub1-cont h4{
+        width: 250px;
+        font-size: 15px;
+      }
+      .sub-cont p, .sub1-cont p{
+        width: 250px;
+        font-size: 15px;
+      }
+}
+
+@media (max-width:380px) {
+    .maill-m{
+        font-size: 10px;
+        margin-right: 3px;
+    }
+    .maill-p{
+        display: none;
+    }
+    .wel-mess{
+        margin-left: -5px;
+        font-size: 10px;
+    }
+
+    /* rice mill section */
+    .rice-mill-image img{
+        width: 300px;
+    }
+    .rice-mill-content{
+        width: 320px;
+    }
+    .mill-title-dline{
+        margin-top: -50px;
+        font-size: 13px;
+    }
+    .rice-mill-subtitle {
+    font-size: 9px;
+    }
+    .rice-mill-title {
+    font-size: 23px;
+    }
+    .rice-mill-description {
+    width: 280px;
+    margin-top: 10px;
+    font-size: 15px;
+    }
+    .rice-mill-features {
+        width: 280px;
+        gap: 0px;
+    }
+    .rice-mill-features p {
+    margin-top: 20px;
+    width: 250px;
+    gap: 10px;
+    font-size: 16px;
+    }
+
+    /* rice-type-section */
+    .rice-options{
+      margin-left: 0px;
+    }
+    .rice-details {
+        width: 290px;
+        margin-right: 0px;
+        flex-direction: column;
+    }
+    .rice-detail-image {
+        width: 130px;
+        height: 130px;
+        margin-right: 0px; 
+        margin-bottom: 20px;
+    }
+    /* get section */
+    .get-touch{
+      width: auto;
+    }
+    .touch-div{
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      .line-sent{
+        font-size: 12px;
+      }
+      .touch-btn{
+        height: auto;
+        margin-right: 0px;
+        width: 120px;
+        font-size: 12px;
+      }
+      /* footer */
+      .bottom{
+        margin-left: 20px;
+        margin-top: 12px;
+      }
+
+      /* products section */
+    .product-head{
+        height: 35vh;
+    }
+    .product-head img{
+        margin-top: 10px;
+        width: 120px;
+    }
+    .product-head h1{
+        font-size: 35px;
+      }
+      .about-head{
+        height: 35vh;
+    }
+    .about-head img{
+        margin-top: 10px;
+        width: 120px;
+    }
+    .about-head h1{
+        font-size: 35px;
+      }
+      .contact-head{
+        height: 35vh;
+    }
+    .contact-head img{
+        margin-top: 10px;
+        width: 120px;
+    }
+    .contact-head h1{
+        font-size: 35px;
+      }
+      .item1{
+        height: 660px;
+      }
+      .item1-box, .item2-box{
+        width: 270px;
+      }
+      .item1-desp, .item2-desp{
+        width: 270px !important;
+      }
+      .item2{
+        margin-top: -50px;
+      }
+      /* team-section */
+      .team-head{
+        height: 40vh;
+      }
+      .team-head h1{
+        font-size: 32px;
+      }
+      .team-head img{
+        margin-top: 10px;
+        width: 125px;
+      }
+
+      .founder{
+        width: auto;
+        height: auto;
+      }
+      .founder h2{
+        font-size: 30px;
+      }
+      .founder img{
+        width: 200px;
+      }
+      .founder p{
+        margin-top: 10px;
+        font-size: 15px;
+      }
+      .parter-titel{
+        font-size: 18px;
+      }
+      .titel-under{
+        margin-top: 20px;
+        margin-bottom: 50px;
+        width: 130px;
+      }
+      .parter1{
+        margin-top: -100px;
+      }
+      .parter1 p{
+        font-size: 15px;
+      }
+      .parter1 img{
+        width: 180px;
+      }
+      .staff1 img{
+        width: 180px;
+      }
+      .staff1 p{
+        font-size: 15px;
+      }
+      .title-under1{
+        margin-top: 10px;
+        width: 130px;
+      }
+
+      /* about section */
+      .about-bd img{
+        width: 200px;
+      }
+      .about-bd div{
+        width: 290px;
+      }
+      .about-bd h2{
+        font-size: 18px;
+      }
+      .about-bd p{
+        width: 270px;
+      }
+      .sub-ab-desp p{
+        width: 260px;
+      }
+      /* contact section */
+      .mess h3{
+        margin-left: 0px;
+      }
+      .map-loc iframe{
+        margin-top: -50px;
+        width: 300px;
+        height: 300px;
+      }
+      .mess-box input{
+        width: 300px;
+        height: 50px;
+        font-size: 15px;
+      }
+      .mess-box textarea{
+        width: 300px;
+        font-size: 15px;
+      }
+      .mess-box{
+        width: 350px;
+      }
+    
+}
